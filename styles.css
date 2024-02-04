@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(217, 217, 217);
+    font-family: 'Times New Roman', Times, serif;
+}
+.intro-info{
+    width: 40rem;
+    height: auto;
+    margin: 2.3rem auto;
+    text-align: center;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 5px;
+}
+
+#circle{
+    height: 80px;
+    width: 80px;
+    background-color: gray;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 10rem;
+    transform: scale(1);
+    transition: 0.8s ease;
+}
+#circle:hover{
+    cursor: pointer;
+    background-color: blue;
+    transform: scale(2.6);
+    transition: 0.8s ease;
+}
